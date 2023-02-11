@@ -1,0 +1,105 @@
+.main {
+    margin: 40px auto;
+    width: 300px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    font-size: 18px;
+}
+
+.reset,
+.stop,
+.start,
+.tablo {
+    position: absolute;
+    top: 15px;
+    border: 3px solid white;
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+.reset {
+    left: 15px;
+}
+
+.stop {
+    left: 110px;
+}
+
+.start {
+    right: 15px;
+}
+
+
+.tablo {
+    top: 75px;
+    left: 65px;
+    width: 160px;
+    height: 45px;
+}
+
+.min,
+.sec,
+.milsec,
+.dot1,
+.dot2 {
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 40px;
+}
+
+.min {
+    left: 10px;
+}
+.dot1{
+    width: 7px;
+    left: 53px;
+    top: 7px;
+}
+
+.dot2{
+    width: 7px;
+    left: 107px;
+    top: 7px;
+}
+
+.sec {
+    left: 65px;
+}
+
+.milsec {
+    left: 114px;
+    font-size: 26px;
+    width: 35px;
+    top: 6px;
+}
+
+.result{
+    margin: 0 auto;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+    font-size: 18px;
+    border: 2px solid black;
+    text-align:left;
+}
+
+h4{
+    text-align:center;
+    font-weight: 600;
+}
